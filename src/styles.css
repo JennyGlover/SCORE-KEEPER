@@ -72,7 +72,7 @@
   }
 
   button{
-    width: 132.3px;
+    width: 132.5px;
     height: 45px;
     margin: 0px;
     padding: 10px;
@@ -86,7 +86,7 @@
 
 .blue-button{
     position: absolute;
-    left: 133.33333262px;
+    left: 132.7px;
     color: white;
     background-color: rgb(42,142,211);
     border:  1px solid rgb(40, 136, 200);
