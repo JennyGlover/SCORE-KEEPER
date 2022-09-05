@@ -36,6 +36,9 @@ function firstPlayerScore(event){
  event.preventDefault();
 if(event.target.innerText === "+1 Player One"){
    if (firstTotal < scoreRange.value){
+    if(scoreRange.value > 0){
+        scoreRange.value = scoreRange.value
+    }
     playerOneScore.style.color = 'black';
     firstTotal += 1
    playerOneScore.innerHTML = firstTotal;
@@ -58,6 +61,9 @@ function sndPlayerScore(event){
     event.preventDefault();
    if(event.target.innerText === "+1 Player Two"){
       if (sndTotal < scoreRange.value){
+        if(scoreRange.value > 0){
+            scoreRange.value = scoreRange.value
+        }
        playerTwoScore.style.color = 'black';
        sndTotal += 1
        playerTwoScore.innerHTML = sndTotal;
