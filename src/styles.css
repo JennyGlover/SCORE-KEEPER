@@ -1,0 +1,104 @@
+.score-keeper{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.rectangle{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.game-title{
+    margin: 0px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.117);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -7px;
+}
+
+.score-area{
+    border: 1px solid rgba(0, 0, 0, 0.117);
+    padding-bottom: 18px;
+    padding-top: 9px;
+    position: relative;
+    top: -7px;
+}
+
+.scores{
+    font-size: 40px;
+    margin: 0px;
+    padding-left: 10px ;
+}
+
+.instructions{
+    font-size: 16px;
+    margin: 0px;
+    padding-left: 10px ;
+
+}
+.number-label{
+    font-weight: bold;
+    padding-left: 10px ;
+
+}
+
+.number-input{
+    width: 40px;
+    border-radius: 16px;
+    height: 20px;
+    padding-left: 8px;
+   margin-top: 10px;
+   margin-left: 2px;
+}
+
+.number-input::-webkit-inner-spin-button {
+    opacity: 1;
+    cursor: pointer;
+
+  }
+
+  .all-buttons{
+    margin-top: 20px;
+    
+  }
+
+  button{
+    width: 132.3px;
+    height: 45px;
+    margin: 0px;
+    padding: 10px;
+  }
+.green-button{
+    background-color: rgb(0,202,169);
+    color: white;
+    border:  1px solid rgb(1, 192, 160);
+    border-radius: 3px;
+}
+
+.blue-button{
+    position: absolute;
+    left: 133.33333262px;
+    color: white;
+    background-color: rgb(42,142,211);
+    border:  1px solid rgb(40, 136, 200);
+    border-radius: 3px;
+
+}
+
+.reset-button{
+    position: absolute;
+    left: 266px;
+    background-color: rgb(238,61,94);
+    color: white;
+    border:1px solid  rgb(222, 57, 87);
+    border-radius: 3px;
+}

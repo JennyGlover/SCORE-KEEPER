@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Score keeper</title>
+  </head>
+  <body>
+    <div class="score-keeper">
+      <img class="rectangle" src="images/pingpong.jpeg" alt="" />
+      <p class="game-title">Ping Pong Score Keeper</p>
+      <div class="score-area">
+        <div>
+          <p class="scores">
+            <span class="player-one-score">0</span> to
+            <span class="player-two-score">0</span>
+          </p>
+          <p class="instructions">Use the buttons below to keep score</p>
+        </div>
+        <div class="input-area">
+          <label class="number-label" for="input"> Playing to</label>
+          <input
+            class="number-input"
+            type="number"
+            name=""
+            id=""
+            placeholder="0"
+            min="0"
+            max="20"
+          />
+        </div>
+        <div class="all-buttons">
+          <button class="green-button">+1 Player One</button>
+          <button class="blue-button">+1 Player Two</button>
+          <button class="reset-button">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
