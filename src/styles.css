@@ -96,7 +96,7 @@
 
 .reset-button{
     position: absolute;
-    left: 266px;
+    left: 265px;
     background-color: rgb(238,61,94);
     color: white;
     border:1px solid  rgb(222, 57, 87);
@@ -106,7 +106,7 @@
 
 @media (max-width: 600px) {
     .score-keeper{
-        width: 300px;
+        width: 301px;
         display: block;
         margin: 0 auto;
         margin-top: 90px;
@@ -115,7 +115,7 @@
     
     
     .rectangle{
-        width: 300px;
+        width: 301px;
         height: 250px;
         object-fit: cover;
     }
@@ -130,22 +130,27 @@ button{
     width: 99.6px;
     height: 45px;
     margin: 0px;
-    padding: 10px;
-    padding-bottom: 40px;
+    text-align: center;
+
+  }
+
+  .green-button{
+    padding: 5px;
   }
 
   .blue-button{
     position: absolute;
     left: 99.93px;
+    padding: 5px;
+
 
 }
 
 .reset-button{
     position: absolute;
     left: 199.93px;
-    
-    padding-top: 18px ;
-    padding-bottom: 32px ;
+    padding: 5px;
+
 
 }
 }
