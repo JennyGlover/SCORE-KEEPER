@@ -86,6 +86,7 @@ function resetScores(event){
     sndTotal = 0;
     playerOneScore.innerHTML = 0;
     playerTwoScore.innerHTML = 0;
+    scoreRange.value = 0;
     playerOneScore.style.color = 'black';
     playerTwoScore.style.color = 'black';
 
